@@ -12,8 +12,23 @@ import co.edu.unicauca.mycompany.director.ProjectDirector;
 import co.edu.unicauca.mycompany.models.Project;
 import java.util.List;
 
+/**
+ * Clase principal de la aplicación.
+ * 
+ * Demuestra el uso del patrón de diseño Builder para la creación de distintos tipos de proyectos.
+ * Se construyen proyectos de software, ciencia de datos y sistemas embebidos utilizando 
+ * un ProjectDirector y builders específicos para cada tipo de proyecto.
+ */
 public class Main {
 
+    /**
+     * Método principal de la aplicación.
+     * 
+     * Se crean y configuran proyectos utilizando el patrón Builder, demostrando 
+     * la flexibilidad del diseño en la construcción de objetos complejos.
+     * 
+     * @param args Argumentos de la línea de comandos (no utilizados en esta aplicación).
+     */
     public static void main(String[] args) {
         ProjectDirector director = new ProjectDirector();
 
